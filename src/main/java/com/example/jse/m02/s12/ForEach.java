@@ -17,6 +17,11 @@ public class ForEach {
             System.out.println(numbers[i]);
         }
 
+        // il foreach non lavora bene con i primitivi.
+        //se devo fare il print non ci sono problemi
+        //se devo fare delle operazioni (es: incremento di 1)
+        //il foreach lavora su una copia(reference) senza modificare il primitivo
+        //lo stesso problema sussiste con le stringhe immutabili.
         // beware of how for-each works on primitives
         int[] ai = { 1, 2, 3, 4, 5 };
         for (int cur : ai) {

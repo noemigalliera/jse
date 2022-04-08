@@ -8,6 +8,8 @@ public class For {
 
             if (i == 2) {
                 System.out.println(" is skipped");
+                //continue skippa tutto il codice seguente
+                //torna all'inizio del loop
                 continue;
             }
 
